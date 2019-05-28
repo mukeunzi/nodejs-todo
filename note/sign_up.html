@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form name="frmSignUp" method="post">
+			<input type="text" id="fname" name="fname" placeholder="성" required />
+			<input type="text" id="lname" name="lname" placeholder="이름" required /><br />
+			<input type="text" id="userId" name="userId" placeholder="아이디" required /><br />
+			<input type="password" id="password" name="password" placeholder="비밀번호" required />
+			<input type="password" id="rePassword" name="rePassword" placeholder="확인" required /><br />
+			<input type="button" value="회원가입" onclick="validCheckInput();" />
+		</form>
+	</body>
+	<script type="text/javascript" src="valid_check.js"></script>
+</html>
